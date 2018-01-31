@@ -1,4 +1,4 @@
-smiles = {'smile_name_1':"smile_1", 'smile_name_2':"smile_2", 'smile_name_3':"smile_3", 'smile_name_4':"smile_4", 'smile_name_5':"smile_5"}
+smiles = {'fight':"(ᕗ ͠°  ਊ ͠° )ᕗ", 'angry':"୧( ಠ Д ಠ )୨", 'ugly':"(   ͡°╭╮ʖ   ͡°)", 'dead':"ᕦ༼ ✖ ਊ ✖ ༽ᕤ", 'scared':"(∩╹□╹∩)"}
 
 
 def handle_message(dir, name):
