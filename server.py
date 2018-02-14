@@ -3,7 +3,7 @@ import requests
 from handler import handle_message
 
 while True:
-    res = request.get("https://api.telegram.org/bot504418727:AAFpnAZ7uJ7ZUMJzgZ5apcC-aOJELjWFlQY/getUpdates")
+    res = requests.get("https://api.telegram.org/bot504418727:AAFpnAZ7uJ7ZUMJzgZ5apcC-aOJELjWFlQY/getUpdates")
     d = res.json()
 
     for elem in d["result"]:
